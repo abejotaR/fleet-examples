@@ -4,7 +4,7 @@ helm:
   releaseName: external-secrets
   chart: "external-secrets"
   repo: "https://charts.external-secrets.io"
-  version: "0.13.0"  # <-- Sin "v"
+  version: "0.14.0"  # <-- Sin "v"
 
   force: false
   timeoutSeconds: 300  # <-- Espera 5 minutos
