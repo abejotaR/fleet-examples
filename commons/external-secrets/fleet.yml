@@ -1,4 +1,4 @@
-#namespace: fleet-commons
+defaultnamespace: fleet-commons
 
 helm:
   releaseName: external-secrets
