@@ -2,7 +2,7 @@
 
 # The namespace this chart will be installed and restricted to,
 # if not specified the chart will be installed to "default"
-namespace: fleet-commons
+namespace: external-secrets
 
 # Custom helm options
 helm:
@@ -18,7 +18,7 @@ helm:
   repo: "https://charts.external-secrets.io"
 
   # Used if repo is set to look up the version of the chart
-  version: "v0.13.0"
+  version: "0.13.0"
 
   # Force recreate resource that can not be updated
   force: false
